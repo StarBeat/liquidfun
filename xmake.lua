@@ -1,6 +1,6 @@
 add_rules("mode.release")
 target("box2d")
-    set_kind("shared")
+    set_kind("static")
     set_runtimes("MD")
     add_cflags("-g", "-DNDEBUG")
     if is_plat("linux", "macosx") then
