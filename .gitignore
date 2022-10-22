@@ -1,0 +1,5 @@
+# xmake generate
+.xmake
+build
+vs*
+.vs
